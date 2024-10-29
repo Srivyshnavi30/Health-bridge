@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Bridge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <button class="back-button">&#8592;</button>
+      <img src="logo.png" alt="Health Bridge Logo" class="logo">
+    </div>
+
+    <div class="card">
+      <div class="icon general-physician"></div>
+      <h2>General Physician</h2>
+      <button class="view-button">View doctors</button>
+    </div>
+
+    <div class="card">
+      <div class="icon psychiatrist"></div>
+      <h2>Psychiatrist</h2>
+      <button class="view-button">View doctors</button>
+    </div>
+
+    <div class="card">
+      <div class="icon nutritionist"></div>
+      <h2>Nutritionist</h2>
+      <button class="view-button">View doctors</button>
+    </div>
+
+    <div class="card">
+      <div class="icon counsellor"></div>
+      <h2>Counsellors</h2>
+      <button class="view-button">View doctors</button>
+    </div>
+  </div>
+</body>
+</html>
