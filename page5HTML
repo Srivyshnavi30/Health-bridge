@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Profiles</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <!-- Profile Card 1 -->
+  <div class="profile-card" style="background-color: #a8d8d8;">
+    <div class="rating">4.2*</div>
+    <div class="profile-content">
+      <img src="doctor1.png" alt="Doctor" class="profile-img">
+      <div class="profile-info">
+        <p><strong>NAME:</strong></p>
+        <p><strong>SPECIALIZATION:</strong> Psychiatrist</p>
+        <p><strong>AVAILABLE TIME:</strong> 9:00-12 AM</p>
+        <p><strong>QUALIFICATIONS:</strong> MBBS, Complete Diploma in Psychiatrist Medicine</p>
+      </div>
+    </div>
+    <button class="view-profile-btn">VIEW PROFILE</button>
+  </div>
+
+  <!-- Profile Card 2 -->
+  <div class="profile-card" style="background-color: #d8a8d8;">
+    <div class="rating">4.5*</div>
+    <div class="profile-content">
+      <img src="doctor2.png" alt="Doctor" class="profile-img">
+      <div class="profile-info">
+        <p><strong>NAME:</strong></p>
+        <p><strong>SPECIALIZATION:</strong> Psychiatrist</p>
+        <p><strong>AVAILABLE TIME:</strong> 12:00-3:00 PM</p>
+        <p><strong>QUALIFICATIONS:</strong> MBBS, MD in Psychiatric Medicine</p>
+      </div>
+    </div>
+    <button class="view-profile-btn">VIEW PROFILE</button>
+  </div>
+
+  <!-- Profile Card 3 -->
+  <div class="profile-card" style="background-color: #a8d8a8;">
+    <div class="rating">4.1*</div>
+    <div class="profile-content">
+      <img src="doctor3.png" alt="Doctor" class="profile-img">
+      <div class="profile-info">
+        <p><strong>NAME:</strong></p>
+        <p><strong>SPECIALIZATION:</strong> Psychiatrist</p>
+        <p><strong>AVAILABLE TIME:</strong> 3:00-6:00 PM</p>
+        <p><strong>QUALIFICATIONS:</strong> MBBS, Doctorate in Medicine</p>
+      </div>
+    </div>
+    <button class="view-profile-btn">VIEW PROFILE</button>
+  </div>
+
+  <!-- Profile Card 4 -->
+  <div class="profile-card" style="background-color: #d8d898;">
+    <div class="rating">4.8*</div>
+    <div class="profile-content">
+      <img src="doctor4.png" alt="Doctor" class="profile-img">
+      <div class="profile-info">
+        <p><strong>NAME:</strong></p>
+        <p><strong>SPECIALIZATION:</strong> Psychiatrist</p>
+        <p><strong>AVAILABLE TIME:</strong> 6:00-9:00 PM</p>
+        <p><strong>QUALIFICATIONS:</strong> MBBS, Complete Diploma in Psychiatrist Medicine</p>
+      </div>
+    </div>
+    <button class="view-profile-btn">VIEW PROFILE</button>
+  </div>
+</div>
+
+</body>
+</html>
