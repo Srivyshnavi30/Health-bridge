@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Pharma Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <button class="back-button">&#8592;</button>
+      <h1 class="title">E-Pharma Hub</h1>
+      <img src="home-icon.png" alt="Home" class="home-icon">
+      <img src="logo.png" alt="Health Bridge Logo" class="logo">
+      <img src="cart-icon.png" alt="Cart" class="cart-icon">
+    </div>
+
+    <h2 class="subtitle">Order Medicines online...</h2>
+
+    <div class="upload-section">
+      <button class="upload-button">Choose a file to upload prescription</button>
+      <img src="upload-icon.png" alt="Upload Icon" class="upload-icon">
+    </div>
+
+    <p class="or-text">(or)</p>
+
+    <div class="search-section">
+      <input type="text" placeholder="Search Medicines/Products..." class="search-input">
+      <img src="search-icon.png" alt="Search Icon" class="search-icon">
+    </div>
+
+    <div class="offers-section">
+      <h3 class="offers-title">Offers</h3>
+      <p class="offer-text">
+        <img src="icon1.png" alt="Offer Icon 1"> Get up to 250/- cashback as Welcome Bonus<br>
+        Use Code: MBKSEP250
+      </p>
+      <p class="offer-text">
+        <img src="icon2.png" alt="Offer Icon 2"> Get 20% off in Amazon pay
+      </p>
+      <button class="view-all-button">View All</button>
+    </div>
+
+    <div class="assurance-section">
+      <h3>Our Assurance</h3>
+      <div class="assurance-icons">
+        <div class="assurance-item">Genuine Medicines</div>
+        <div class="assurance-item">Secure Packaging</div>
+        <div class="assurance-item">Fast Delivery</div>
+      </div>
+    </div>
+
+    <button class="place-order-button">Place Order</button>
+  </div>
+</body>
+</html>
