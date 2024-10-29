@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthBridge</title>
+    <link rel="stylesheet" href="C:\Users\kvsvy\OneDrive\Desktop\health bridge\styles1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\kvsvy\OneDrive\Desktop\health bridge\health bridge.png" alt="HealthBridge Logo">
+           <!-- <span>HealthBridge</span>-->
+        </div>
+        <div class="menu">
+            <i class="menu-icon">☰</i>
+            <i class="profile-icon">👤</i>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Your Health, Our Commitment.</h1>
+            <p>Get up to 20% off on the first plan <span class="settings-icon">⚙️</span></p>
+        </section>
+
+        <section class="service-info">
+            <div class="card">
+                <img src="C:\Users\kvsvy\OneDrive\Desktop\health bridge\docter.png" alt="Pharmacy illustration">
+                <p>HealthBridge brings the pharmacy to your fingertips...!</p>
+                <p>Whether you need a prescription refill or expertized medication advice, we can get you!</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <button class="btn">Consultancy Services</button>
+            <button class="btn pharmacy">Pharmacy</button>
+        </section>
+    </main>
+</body>
+</html>
