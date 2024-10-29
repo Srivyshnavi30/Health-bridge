@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctor Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      <button class="back-button">&#8592;</button>
+      <img src="doctor-icon.png" alt="Doctor Icon" class="doctor-icon">
+      <h1 class="doctor-name">Doctor</h1>
+    </div>
+
+    <div class="chat-messages">
+      <div class="message doctor-message">Hello, how can I help you today?</div>
+      <div class="message user-message">I have a question about my health.</div>
+      <div class="message doctor-message">Sure, please go ahead and ask.</div>
+      <div class="message user-message">Thank you!</div>
+    </div>
+
+    <div class="chat-input-section">
+      <img src="camera-icon.png" alt="Camera" class="camera-icon">
+      <input type="text" class="chat-input" placeholder="Type a message...">
+      <button class="send-button">&#9658;</button>
+    </div>
+  </div>
+</body>
+</html>
